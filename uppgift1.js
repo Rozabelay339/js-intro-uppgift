@@ -14,11 +14,11 @@ var passengers = 90;
 
 //Använd variablerna ovan för att lösa koden nedan
 
-var cars_without_drivers = //Räkna ut hur många bilar som inte har en förare;
+var cars_without_drivers //Räkna ut hur många bilar som inte har en förare;
     
-var cars_with_drivers = //Räkna ut hur många bilar som har en förare;
+var cars_with_drivers //Räkna ut hur många bilar som har en förare;
   
-var carpool_capacity = //Räkna ut det totala antalet platser alla bilar med förare har tillsammans;
+var carpool_capacity  //Räkna ut det totala antalet platser alla bilar med förare har tillsammans;
   
 var average_passengers_per_car_in_pool = //Räkna ut snittet på antal passagerare per bil som ingår i carpoolen.
   
@@ -30,3 +30,8 @@ console.log("There will be " + cars_without_drivers + " cars without drivers");
 console.log("We can transport " + carpool_capacity + " people today");
 console.log("We have " + passengers + " to carpool today");
 console.log("We need to put about " + average_passengers_per_car_in_pool + " in each car");
+
+console.log(cars - drivers);
+console.log(drivers);
+console.log(drivers * seats_in_car);
+console.log(passengers / seats_in_car);
